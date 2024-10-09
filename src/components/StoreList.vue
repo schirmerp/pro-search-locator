@@ -32,6 +32,7 @@ export default {
   border: 1px solid #eee;
   height: 500px;
   overflow-y: scroll;
+  border-radius: 8px;
 }
 .store {
   padding: 10px;
@@ -46,5 +47,11 @@ export default {
 .store-directions i {
   font-size: 65px;
   color: #1C61B2;
+}
+.container{
+  border-radius: 12px;
+}
+.roudned {
+  border-radius: 8px;
 }
 </style>

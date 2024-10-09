@@ -7,12 +7,12 @@ Vue.config.productionTip = false
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: process.env.API_KEY,
+    key: 'AIzaSyBleJxSr7tqU-007mt9S9EB-FEVSKUt854', // process.env.VUE_APP_API_KEY,
     libraries: 'places,geometry'
   }
 })
 
-/* eslint-disable no-new */
+/* eslint-disable*/
 new Vue({
   el: '#app',
   router,

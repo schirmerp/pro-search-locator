@@ -14,4 +14,7 @@ export default {
 section {
   padding: 100px 0;
 }
+.vue-map {
+  border-radius: 8px;
+}
 </style>
